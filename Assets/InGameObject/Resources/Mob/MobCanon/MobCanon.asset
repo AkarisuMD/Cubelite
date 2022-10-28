@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7ec4c36a2749a34d95fdacc5b03f646, type: 3}
+  m_Name: MobCanon
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: f7ff9201e586ee6419f417a8fa0a9c3c, type: 3}
+  scriptCanon: {fileID: 11500000, guid: 0b7811dc5d759c848b7f54f5c7eeb8a2, type: 3}
+  Stats:
+    damage: 1
+    bulletSpeed: 12.5
+    range: 25
+    critical: 50
+    speedRotation: 10
+    shootSpeed: 1
+  VolumeAudio: 0.1
+  AudioCanon: {fileID: 0}
+  ShootAudioCanon: {fileID: 8300000, guid: 97cd64d0095263c4e8b106b337b38071, type: 3}
+  anim: {fileID: 7400000, guid: 12d984defa0e15e4785d7589b26a09cb, type: 2}
+  spriteBullet: {fileID: 21300000, guid: 1e49f0cd2f8c6d248aa81230b41aecc7, type: 3}
+  scriptBullet: {fileID: 11500000, guid: 644e26dd74901624e837f87b254a6f41, type: 3}
+  AudioBullet: {fileID: 8300000, guid: 97cd64d0095263c4e8b106b337b38071, type: 3}
+  bulletColor:
+    serializedVersion: 2
+    key0: {r: 0.98039216, g: 0.27058825, b: 0.27058825, a: 1}
+    key1: {r: 0.9811321, g: 0.2721253, b: 0.2721253, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2

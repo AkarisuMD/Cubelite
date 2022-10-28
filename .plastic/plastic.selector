@@ -1,0 +1,4 @@
+repository "ProjetPlateformer@AkarisuMD@cloud"
+  path "/"
+    smartbranch "/main/dev" 
+     

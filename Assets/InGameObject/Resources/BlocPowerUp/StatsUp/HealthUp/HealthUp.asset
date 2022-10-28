@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df7b7d3dfe3391343b9dfcd7901f0735, type: 3}
+  m_Name: HealthUp
+  m_EditorClassIdentifier: 
+  Fond: {fileID: 21300000, guid: 93be1ea2b7a2b124ab9aacf4d97e7bf5, type: 3}
+  FondStats: {fileID: 21300000, guid: 71fc4822dfaf5d34bb4b7cca9a7ce66d, type: 3}
+  Icon: {fileID: 21300000, guid: 2d3c7128cf9ea954cb0b58e4268ccd30, type: 3}
+  Name: Health Up
+  Info: 'ONLY PLAYER
+
+
+    Upgrade your health amount.'
+  ScriptBloc: {fileID: 11500000, guid: 313bbbb8a0ab48442868857addf15249, type: 3}
+  Canon:
+    shootRate: 0
+    damage: 0
+    range: 0
+  Player:
+    hp: 1.2
+    size: 1
+    speed: 1
+    shootRate: 1
+    damage: 1
+    range: 1
